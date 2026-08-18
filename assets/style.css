@@ -204,3 +204,10 @@ body.en .recog-close{font-family:var(--serif);font-style:italic;font-weight:500}
 @media(max-width:700px){.case-stage ul{columns:1}}
 .blunt{font-family:"Noto Serif TC",var(--serif);font-weight:600;font-size:clamp(20px,2.6vw,26px);line-height:1.8;border-left:2px solid var(--terra);padding-left:24px;margin:54px 0;max-width:24em}
 body.en .blunt{font-family:var(--serif);font-style:italic;font-weight:500}
+
+/* ---------- r2 refinements ---------- */
+body:not(.en) .offer-quote{font-family:"Noto Serif TC",serif;font-weight:600;font-size:18px;color:var(--ink)}
+body:not(.en) .recog-cell p{font-size:17px;line-height:2}
+body:not(.en) h1{line-height:1.5}
+body:not(.en) h2{line-height:1.6}
+section{padding:100px 0}
